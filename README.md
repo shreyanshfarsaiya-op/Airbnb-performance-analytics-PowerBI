@@ -2,7 +2,7 @@
 
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![DAX](https://img.shields.io/badge/DAX-Data%20Analysis%20Expressions-blue?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
-[![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-green?style=for-the-badge)](#data-architecture)
+[![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Relational%20Model-green?style=for-the-badge)](#data-architecture)
 
 An interactive, multi-page Power BI business intelligence dashboard analyzing **280,000+ listings** and customer reviews across 10 global metropolitan markets. 
 
@@ -44,7 +44,7 @@ This project explores listing lifecycle trends, city-level market concentrations
 
 * **Data Source:** Maven Analytics Airbnb Open Dataset (Listings & Reviews).
 * **Scale:** 280,000+ rows normalized into Fact and Dimension tables.
-* **Schema Design:** Multi-table relationship model with native cross-filtering enabled across Listing ID keys to ensure responsive cross-visual slicing.
+* **Data Model:** Normalized 1-to-Many Relational Model connecting `Listings` (Dimension/Parent) and `Reviews` (Fact/Transactional) tables on `listing_id`.
 
 ---
 

@@ -12,13 +12,20 @@ This project explores listing lifecycle trends, city-level market concentrations
 
 ## 📊 Dashboard Preview
 
-| Page 1: Performance & Lifecycle Overview | Page 2: Ratings & Market Share Matrix |
-| :---: | :---: |
-| ![Page 1](screenshots/page1_overview.png) | ![Page 2](screenshots/page2_ratings.png) |
+| Page 1: Performance & Lifecycle Overview |
+| :---: |
+| <img width="1277" height="975" alt="Screenshot 2026-10-26 105910" src="https://github.com/user-attachments/assets/1541a70f-509b-4298-87c8-af07aceb7285" />
+ |
+
+| Page 2: Ratings & Market Share Matrix |
+| :---: |
+| <img width="1277" height="976" alt="Screenshot 2026-10-26 105924" src="https://github.com/user-attachments/assets/00ae206d-995b-4528-be05-dcd01d777599" />
+ |
 
 | Page 3: Review Frequency & Trust Signals |
 | :---: |
-| ![Page 3](screenshots/page3_reviews_trust.png) |
+| <img width="1277" height="976" alt="Screenshot 2026-10-26 105941" src="https://github.com/user-attachments/assets/22a35091-5596-4002-b6a5-be336416b5d6" />
+ |
 
 ---
 
@@ -60,4 +67,4 @@ This project explores listing lifecycle trends, city-level market concentrations
 ## 📂 Repository Contents
 
 * `/screenshots`: High-resolution captures of the 3-page interactive report.
-* `*.pbix`: Complete Power BI report file with data model, visuals, and DAX measures.
+* `*.pbit`: Complete Power BI report template file with data model, visuals, and DAX measures.
